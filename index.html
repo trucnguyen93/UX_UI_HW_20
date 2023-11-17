@@ -1,94 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Portfolio Case Study</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,700;1,9..40,400&family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-<!-- Navigation Menu -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Case Study</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="#business-section">Project Overview</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#research-section">Persona & Research</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#problem-section">Problem Statement</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#iteration-section">Iteration</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#prototype-section">Prototype</a>
-            </li>
-        </ul>
-    </div>
-</nav>
-<section class="splashimg">
-    <div class="jumbotron jumbotron-fluid">
-            <img class="MHSsplash" src="images/splash img.svg" alt="MHSsplash">
-      </div>
-</section>
-<!-- Business/Product Section -->
-<section id="business-section" class="container mt-5">
-    <div class="overviewContainer">
-    <h2>Mississauga Humane Society</h2>
-    <h3>Project Overview</h3>
-    <p>The Mississauga Humane Society is a local non-profit animal shelter dedicated to rehoming cats and dogs in need. Their current website lacks cohesion and content structure causing the mission and the animals to be missed and the user to abandon the site before even considering adopting through them.</p>
-    <div class="overviewWrap">
-        <div class="overview">
-            <h5>People</h5>
-            <ul>
-                <li>Truc Nguyen, UX/UI Designer</li>
-                <li>Tom Messore, UX/UI Designer</li>
-                <li>Raine Cai, UX/UI Designer</li>
-                <li>Bhakti Risbud, UX/UI Designer</li>
+    <!-- Navigation Menu -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Case Study</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#business-section">Project Overview</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#research-section">Persona & Research</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#problem-section">Problem Statement</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#iteration-section">Iteration</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#prototype-section">Prototype</a>
+                </li>
             </ul>
         </div>
-        <div class="overview">
-            <h5>Responsibilities</h5>
-            <ul>
-                <li>Research</li>
-                <li>Ideation + Brainstorming</li>
-                <li>UI Design</li>
-                <li>Information Architecture</li>
-                <li>Responsive Design/li>
-            </ul>
+    </nav>
+    <section class="splashimg">
+        <div class="jumbotron">
+            <div class="jumboWrap"></div>
+            <!-- <img class="MHSsplash" src="images/splash img.svg" alt="MHSsplash"> -->
+            <h1 class="display-4">Mississauga Humane Society</h1>
+            <h4 class="lead">Connecting pets to hearts</h4>
         </div>
-        <div class="overview">
-            <h5>Timeline</h5>
-            <p>3 Weeks</p>
         </div>
-    </div>
-</div>
-<img src="images/unsplash_GuvT7nRq7KI.svg">
-<div class="currentState">
-    <h3>Existing State</h3>
-    <p>The existing experience lacks a number of UI standards creating inconsistency across the site. These include: no grid system, colour inconsistency across pages, too much white space, lots of text on subpages and lack of visuals. In addition to the UI inconsistencies, the animals and adoption processes are not prominently featured and there is little content above the fold of the homepage.<span class="bold"> This negatively impacts user engagement leading to users abandoning before exploring adopt or foster options </span></p>
-    <img src="images/existingstate.svg">
+    </section>
+    <!-- Business/Product Section -->
+    <section id="business-section" class="container mt-5">
+        <div class="overviewContainer">
+            <!-- <h2>Mississauga Humane Society</h2> -->
+            <div class="row pOverview">
+            <div class="col-lg">
+            <h3>Project Overview</h3>
+            <p>The Mississauga Humane Society is a local non-profit animal shelter dedicated to rehoming cats and dogs
+                in need. Their current website lacks cohesion and content structure causing the mission and the animals
+                to be missed and the user to abandon the site before even considering adopting through them.</p>
+            </div>
+            <div class="col-lg">
+                <img id="unsplash" src="images/unsplash_GuvT7nRq7KI.svg">
+            </div>
+        </div>
+            <div class="overviewWrap">
+                <div class="row">
+                    <div class="col-lg overview">
+                        <h5>People</h5>
+                        <ul>
+                            <li>Truc Nguyen, UX/UI Designer</li>
+                            <li>Tom Messore, UX/UI Designer</li>
+                            <li>Raine Cai, UX/UI Designer</li>
+                            <li>Bhakti Risbud, UX/UI Designer</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg overview">
+                        <h5>My Responsibilities</h5>
+                        <ul>
+                            <li>Research</li>
+                            <li>Ideation + Brainstorming</li>
+                            <li>UI Design</li>
+                            <li>Information Architecture</li>
+                            <li>Responsive Design</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg overview">
+                        <h5>Timeline</h5>
+                        <p>3 Weeks</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="currentState">
+            <h3>Existing State</h3>
+            <p>The existing experience lacks a number of UI standards creating inconsistency across the site. These
+                include: no grid system, colour inconsistency across pages, too much white space, lots of text on
+                subpages and lack of visuals. In addition to the UI inconsistencies, the animals and adoption processes
+                are not prominently featured and there is little content above the fold of the homepage.<span
+                    class="bold"> This negatively impacts user engagement leading to users abandoning before exploring
+                    adopt or foster options </span></p>
+            <img id="existing" src="images/existingstate.svg">
 
-</div>
-</section>
+        </div>
+    </section>
 
-<!-- Research Section -->
-<section id="research-section" class="container mt-5">
-    <h2>Persona & Research</h2>
-    <p>During the initial research into our non-profit, we had our own hypothesis about what was wrong with the current Mississauga Humane Society website, but we took this to user testing to gather insights. The insights confirmed our hypothesis that <span class="bold"> most users looking to adopt a pet will choose their shelter based on the pets available </span> and that the Mississauga Humane Society's website <span class="bold"> confusion and does not feature pets upfront, which causes users to abandon the site. </span> 
-<br>
-        We used these insights to create a user persona, Amy Pets. Her goals were to adopt a furry animal member, and her frustrations include sites that do not have optimized navigation. We used heuristic analyses, competitor analysis, and surveys to gather more insights about the common pain points in the user journey to apply for a pet.</p>
-        <img src="images/amypets.svg">
-        <div id="expectations">
+    <!-- Research Section -->
+    <section id="research-section" class="container mt-5">
+        <h2>Persona & Research</h2>
+        <p>During the initial research into our non-profit, we had our own hypothesis about what was wrong with the
+            current Mississauga Humane Society website, but we took this to user testing to gather insights. The
+            insights confirmed our hypothesis that <span class="bold"> most users looking to adopt a pet will choose
+                their shelter based on the pets available </span> and that the Mississauga Humane Society's website
+            <span class="bold"> confusion and does not feature pets upfront, which causes users to abandon the site.
+            </span>
+            <br>
+            We used these insights to create a user persona, Amy Pets. Her goals were to adopt a furry animal member,
+            and her frustrations include sites that do not have optimized navigation. We used heuristic analyses,
+            competitor analysis, and surveys to gather more insights about the common pain points in the user journey to
+            apply for a pet.
+        </p>
+        <div class="amy">
+        <img id="amy" src="images/amypets.svg">
+        <div class="column">
+        <div class="expectations">
             <h5>Expectations</h5>
             <ul>
                 <li>Clear and easy information</li>
@@ -97,7 +134,7 @@
                 <li>more information about the website </li>
             </ul>
         </div>
-        <div id="frustrations">
+        <div class="expectations">
             <h5>Frustrations</h5>
             <ul>
                 <li>Unclear information</li>
@@ -106,73 +143,94 @@
                 <li>Not knowing if it is a trusted animal shelter</li>
             </ul>
         </div>
-</section>
-
-<!-- Problem Statement Section -->
-<section id="problem-section" class="container mt-5">
-    <h3>The Problem:</h3>
-    <p>How might we increase adoption rates and reduce friction for potential pet owners to ensure a seamless and convenient adoption experience?</p>
-</section>
-
-<!-- Iteration Section -->
-<section id="iteration-section" class="container mt-5">
-    <h2>Ideating the New User Journey</h2>
-    <p>We each contributed our own initial paper prototype designs, then collaborated using a dot-voting exercise to vote on the best features of each design. We incorporated all the features we intended to keep and divided the user journey into separate sections to work on individually. I prototyped the adoption application pages.</p>
-    <div class="sketches">
-        <img src="images/sketches.svg">
-        <img src="images/rainesketch.svg">
-        <img src="images/wireframe.svg">
     </div>
-    <div class="style">
-        <p>Before breaking off we also designed a preliminary style tile to align on a colour palette, typography, and general design aesthetic to apply to our low-fidelity wireframes. We decided on a <span class="bold"> colour palette that anchored on green, to represent new beginnings and growth; reflecting the Mississauga Humane Society's mission.</span></p>
-        <img src="images/colorpalette.svg">
-        <img src="images/font.svg">
     </div>
-    <div class="testing">
-        <p>When everyone completed their sections of the user journey, we came together to prototype the whole journey together. With a working prototype of the user journey, we created a Maze.co test to see the usability in action. </p>
-        <p>Some top insights and iterations we made following the usability tests include </p>
-        <ol>
-            <li>moving the adoption process further up on the page</li>
-            <li>aligning text boxes to the left to follow the way users typically read from left to right</li>
-            <li>moving the filters for cat/dog closer to the pictures of the animals rather than near the primary navigation which seemed to confuse users.</li>
-        </ol>
-        <img src="images/maze_report-mission1-screen1-optimal-path 1.svg">
-        <p>We made iterations to our wireframes and applied our style guide using alll the components we created during our prototyping. We set up another user-testing round to evaluate our hi-fidelity version of the prototype.</p>
-        <div class="insight">
-            <h6>Insight 1</h6>
-            <p>Remove Auto-Gallery in hero space. Causing mis-clicks</p>
+    </section>
+
+    <!-- Problem Statement Section -->
+    <section id="problem-section" class="jumbotron-fluid mt-5">
+        <h3 id="problem">The Problem:</h3>
+        <p id="howMightWe">How might we increase adoption rates and reduce friction for potential pet owners to ensure a seamless and
+            convenient adoption experience?</p>
+        </section>
+
+    <!-- Iteration Section -->
+    <section id="iteration-section" class="container mt-5">
+        <h2>Ideating the New User Journey</h2>
+        <p>We each contributed our own initial paper prototype designs, then collaborated using a dot-voting exercise to
+            vote on the best features of each design. We incorporated all the features we intended to keep and divided
+            the user journey into separate sections to work on individually. I prototyped the adoption application
+            pages.</p>
+        <div class="row">
+            <div class="sketches col-xl-12">
+                <img src="images/sketches.svg">
+                <img src="images/rainesketch.svg">
+                <img src="images/wireframe.svg">
+            </div>
         </div>
-        <div class="insight">
-            <h6>Insight 2</h6>
-            <p>Increase fonts, especially for navigation </p>
+        <div class="style">
+            <p>Before breaking off we also designed a preliminary style tile to align on a colour palette, typography,
+                and general design aesthetic to apply to our low-fidelity wireframes. We decided on a <span
+                    class="bold"> colour palette that anchored on green, to represent new beginnings and growth;
+                    reflecting the Mississauga Humane Society's mission.</span></p>
+            <img src="images/colorpalette.svg">
+            <img src="images/font.svg">
         </div>
-    </div>
-</section>
+        <div class="testing">
+            <p>When everyone completed their sections of the user journey, we came together to prototype the whole
+                journey together. With a working prototype of the user journey, we created a Maze.co test to see the
+                usability in action. </p>
+            <p>Some top insights and iterations we made following the usability tests include </p>
+            <ol>
+                <li>moving the adoption process further up on the page</li>
+                <li>aligning text boxes to the left to follow the way users typically read from left to right</li>
+                <li>moving the filters for cat/dog closer to the pictures of the animals rather than near the primary
+                    navigation which seemed to confuse users.</li>
+            </ol>
+            <img src="images/maze_report-mission1-screen1-optimal-path 1.svg">
+            <p>We made iterations to our wireframes and applied our style guide using alll the components we created
+                during our prototyping. We set up another user-testing round to evaluate our hi-fidelity version of the
+                prototype.</p>
+            <div class="insight">
+                <h6>Insight 1</h6>
+                <p>Remove Auto-Gallery in hero space. Causing mis-clicks</p>
+            </div>
+            <div class="insight">
+                <h6>Insight 2</h6>
+                <p>Increase fonts, especially for navigation </p>
+            </div>
+        </div>
+    </section>
 
-<!-- Prototype Section -->
-<section id="prototype-section" class="container mt-5">
-    <div class="prototypeBreak">
-    <h2>High-Fidelity Prototype</h2>
-</div>
-<div class="prototypes">
-<img src="images/desktop prototype.svg">
-<p class="caption">Desktop Demo</p>
-<img src="images/mobile prototype.svg">
-<p class="caption">Mobile Demo</p>
-</div>
-<div class="learnings">
-    <img src="images/final prototype.svg">
-    <p>I'm proud to show our finished product on both desktop and mobile devices. Our responsive web-design was very collaborative and aims to solve the user's pain points of not being able to find the available animals while promoting the adoption process prominently. </p>
-    <h6>Learnings</h6>
-    <p><span class="bold"> Keep iterating</span> - we were proud of our product, but we found new insights and iterations that could be made after each round of testing. Iterating and testing repeatedly will help create a successful product.</p>
-</div>
-</section>
+    <!-- Prototype Section -->
+    <section id="prototype-section" class="container mt-5">
+        <div class="prototypeBreak">
+            <h2>High-Fidelity Prototype</h2>
+        </div>
+        <div class="prototypes">
+            <img src="images/desktop prototype.svg">
+            <p class="caption">Desktop Demo</p>
+            <img src="images/mobile prototype.svg">
+            <p class="caption">Mobile Demo</p>
+        </div>
+        <div class="learnings">
+            <img src="images/final prototype.svg">
+            <p>I'm proud to show our finished product on both desktop and mobile devices. Our responsive web-design was
+                very collaborative and aims to solve the user's pain points of not being able to find the available
+                animals while promoting the adoption process prominently. </p>
+            <h6>Learnings</h6>
+            <p><span class="bold"> Keep iterating</span> - we were proud of our product, but we found new insights and
+                iterations that could be made after each round of testing. Iterating and testing repeatedly will help
+                create a successful product.</p>
+        </div>
+    </section>
 
 
-<!-- Bootstrap JS and Popper.js -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
 </body>
+
 </html>

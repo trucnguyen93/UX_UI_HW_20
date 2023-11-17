@@ -1,0 +1,91 @@
+.jumbotron {
+    background-color: rgba(173, 183,156, 0.8) !important;
+
+}
+
+#unsplash {
+    width: 75%;
+}
+.pOverview {
+    margin-bottom: 30px;
+}
+
+.currentState {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.currentState>h3 {
+    align-self: flex-start;
+}
+
+#existing {
+    width: 75%;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+.amy {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#amy {
+    width: 35%;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.expectations {
+    background-color: rgba(139, 112,65, 1);
+    color: whitesmoke;
+    border-radius: 14px;
+    margin: 20px;
+    padding: 10px;
+    width: 450px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+#problem-section {
+    display: flex;
+    flex-direction: row;
+    height: 638px;
+    background-color: #1F4E58;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+
+#problem {
+    width: 452px;
+    margin-left: 100px;
+    padding: 20px;
+    font-size: 60px;
+    color: #E4D1C0;
+}
+#howMightWe{
+    width: 805px;
+    padding: 20px;
+    margin: 20px;
+    font-size: 40px;
+}
+
+
+/* font-family: 'DM Sans', sans-serif;
+font-family: 'Playfair Display', serif; */

@@ -1,13 +1,46 @@
-.jumbotron {
-    background-color: rgba(173, 183,156, 0.8) !important;
-
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Playfair Display', serif;
 }
 
+p {
+    font-family: 'DM Sans', sans-serif;
+}
+
+ul {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.navbar {
+    background-color: #1F4E58 !important;
+}
+.logo {
+    width: 100px;
+    margin: 1%;
+    padding: 5px;
+}
+.splashimg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    height: 300px;
+}
+.jumbotron {
+    background-color: whitesmoke;
+    height: inherit;
+    text-align: center;
+    justify-self: center;
+    margin-top: 2rem;
+}
 #unsplash {
     width: 75%;
 }
 .pOverview {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+}
+.row {
+    margin-bottom: 50px;
 }
 
 .currentState {
@@ -16,8 +49,13 @@
     align-items: center;
     justify-content: center;
 }
-.currentState>h3 {
+/* .currentState>h3 {
     align-self: flex-start;
+} */
+h2 {
+text-align: center;
+padding: 10px;
+margin: 20px;
 }
 
 #existing {
@@ -53,7 +91,7 @@
     color: whitesmoke;
     border-radius: 14px;
     margin: 20px;
-    padding: 10px;
+    padding: 30px 20px 20px 40px;
     width: 450px;
 }
 
@@ -61,11 +99,14 @@
     font-weight: bold;
 }
 
+.italics {
+    font-style: italic;
+}
 
 #problem-section {
     display: flex;
     flex-direction: row;
-    height: 638px;
+    height: 600px;
     background-color: #1F4E58;
     justify-content: center;
     align-items: center;
@@ -76,16 +117,132 @@
     width: 452px;
     margin-left: 100px;
     padding: 20px;
-    font-size: 60px;
+    font-size: 40px;
     color: #E4D1C0;
 }
 #howMightWe{
     width: 805px;
     padding: 20px;
     margin: 20px;
-    font-size: 40px;
+    font-size: 30px;
 }
 
+.sketches {
+    text-align: center;
+    margin: 20px;
+}
 
+#sketch {
+    width: 25%;
+    margin: 10px;
+}
+#raine {
+    width: 26%;
+    margin: 10px;
+}
+#wireframe {
+    margin: 10px;
+}
+
+.styleGuide {
+    display: flex;
+    flex-direction: row;
+    margin: 50px 20px 5px 20px;
+    padding: 10px;
+}
+
+#styleGuide {
+    width: 50%;
+    padding: 20px;
+}
+
+#palette {
+    width: 50%;
+}
+#font {
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.testing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#testingP{
+    margin-bottom: 50px;
+}
+#test {
+    width: 65%;
+    border-radius: 14px;
+    margin-bottom: 50px;
+}
+
+.testing>ol {
+    width: 60%;
+}
+
+.testInsights {
+    display: flex;
+    flex-direction: row;
+}
+.insight {
+    width: 50%;
+    text-align: center;
+    margin: 30px;
+    padding: 20px;
+    background-color: rgba(139, 112,65, 1);
+    color: whitesmoke;
+    border-radius: 14px;
+}
+h5 {
+    font-weight: bold;
+}
+
+.prototypes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#desktop {
+    width: 1000px;
+    margin: 20px 20px 0 20px;
+    padding: 20px 20px 0 20px;
+}
+#mobile {
+    width: 300px;
+    margin: 20px 20px 0 20px;
+    padding: 20px 20px 0 20px;
+}
+
+.caption {
+    color: grey;
+    margin-bottom: 50px;
+}
+
+#final {
+    margin-left: -170px;
+    width: 60%;
+}
+
+.finalThoughts {
+    display: flex;
+    flex-direction: row;
+}
+
+.learning {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15%;
+}
 /* font-family: 'DM Sans', sans-serif;
 font-family: 'Playfair Display', serif; */
